@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(235, 236, 236);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+
+header>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    background-color: rgb(255, 227, 192);
+}
+nav li{
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: grey;
+}
+a:hover{
+    font-size: 1.6rem;
+    
+}
+
+section {
+    display: flex;
+    gap: 20px;
+  }
+article{
+    flex: 1;
+    padding: 3%;
+  
+}
+article>img{
+    width: 100%;
+    max-height: 30rem;
+    object-fit: cover;
+}
+.image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15%;
+  }
+  
+  .image-text {
+    position: absolute;
+    top: 30%;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    white-space: pre-line;
+    font-size: 1vw;
+  }
+  
+  .image-text h1 {
+    font-size: 3vw;
+  }
+  .image-text p{
+    max-width: 50%;
+    text-transform: lowercase;
+  }
+
+  @media (max-width: 1000px) {
+    .image-text h1{
+      font-size: 5vw; /
+    }
+    nav li{
+        font-size: 1rem;
+    }
+    .image-text p{
+        font-size: 2.5vw;
+      }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+ 
+.con img{
+    max-height: 15vw ;
+}
+.con1 img{
+    max-height: 15vw;
+}
+.con2 img{
+    max-height: 15vw;
+}
+  .con{
+    background-color: rgb(253, 238, 219);
+    
+  }
+  .con1{
+    background-color: rgb(253, 238, 219);
+
+  }
+  .con2{
+    background-color: rgb(253, 238, 219);
+
+  }
+  
+.con2 ul{
+    list-style: none;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+}
+footer div{
+    flex: 1;
+}
+.copy-right{
+    margin-left: 70vw;
+    padding-top: 2%;
+    white-space: nowrap;
+    text-decoration: overline;
+}
+p{
+    font-family: 'Lora', serif;
+}
+li{
+    padding-top: 2%;
+    font-family: 'Roboto Condensed', sans-serif;
+   
+}
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+@media (max-width: 1000px) {
+    .con img{
+        max-height: 30vw ;
+    }
+    .con1 img{
+        max-height: 30vw;
+    }
+    .con2 img{
+        max-height: 30vw;
+    }
+  }
